@@ -21,6 +21,7 @@ Your users should be able to:
 
 - Semantic HTML5 markup
 - Flexbox
+- Bootstrap for the form
 - Mobile-first workflow
 
 ## Author
