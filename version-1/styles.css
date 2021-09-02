@@ -1,0 +1,180 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(./images/bg-intro-mobile.png);
+}
+
+header {
+    margin-top: 80px;
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    width: 85%;
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    margin-bottom: 1.5rem;
+}
+
+header p {
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.try-btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: white;
+    background-color: #5E54A4;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+
+.try-text {
+    font-weight: 700;
+}
+
+form {
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+
+input[type=text], input[type=email],
+input[type=password] {
+    border: 0.5px solid lightgrey;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.submit-btn {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background-color: #38CC8B;
+    padding: 16px 30px;
+    margin-bottom: 1rem;
+}
+
+.terms {
+    font-size: 11px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 21px;
+    color: #BAB7D4;
+    max-width: 250px;
+}
+
+.terms-bold {
+    font-weight: 700;
+    color: hsl(0, 100%, 74%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.paminos {
+    color: #5E54A4;
+    font-weight: 600;
+}
+
+footer {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    color: darkgrey;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    body {
+        background-image: url(./images/bg-intro-desktop.png);
+    }
+    
+    .head-and-section {
+        display: flex;
+        height: 90vh;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h1 {
+        max-width: 450px;
+        text-align: left;
+        font-size: 50px;
+        line-height: 55px;
+        letter-spacing: -0.5px;
+    }
+
+    header p {
+        text-align: left;
+        max-width: 500px;
+    }
+
+    .form-and-btn {
+        max-width: 550px;
+    }
+
+    form {
+        padding: 2.5rem;
+    }
+
+    .try-btn {
+        width: 100%;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[type=password] {
+        padding-left: 1.5rem;
+    }
+
+    .submit-btn {
+        width: 100%;
+    }
+
+    .terms {
+        max-width: none;
+    }
+
+}

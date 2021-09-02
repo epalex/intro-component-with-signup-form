@@ -12,8 +12,8 @@ Your users should be able to:
 
 ## Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/epalex/intro-component-with-signup-form
+- Live Site URL: https://epalex.github.io/intro-component-with-signup-form/
 
 ## My process
 
@@ -25,6 +25,8 @@ Your users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@epalex](https://www.frontendmentor.io/profile/epalex)
 
+## Open issues
+
+- 
