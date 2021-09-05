@@ -186,4 +186,8 @@ footer {
   .terms {
     max-width: unset;
   }
+
+  .submit-btn:hover {
+    background-color: #77e2b3;
+  }
 }
