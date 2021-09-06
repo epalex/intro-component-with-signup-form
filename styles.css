@@ -144,6 +144,10 @@ footer {
   margin-bottom: 20px;
 }
 
+#formGroupExampleInput1.invalid {
+  border-color: #ff7979;
+}
+
 @media screen and (min-width: 992px) {
   .container {
     margin: 120px auto 0 auto;

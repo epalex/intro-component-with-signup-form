@@ -29,19 +29,22 @@
 
             <h2><span class="bold-text">Try it free 7 days</span> then $20/mo. thereafter</h2>
 
-            <form action="" method="post">
+            <form class="needs-validation" action="#" method="" novalidate>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name">
+                    <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="First Name" required>
+                    <div class="invalid-first-name"></div>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last Name">
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last Name"
+                        required>
                 </div>
                 <div class="form-group">
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Email Address">
+                        placeholder="Email Address" required>
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"
+                        required>
                 </div>
                 <button type="submit" class="btn btn-primary submit-btn">CLAIM YOUR FREE TRIAL</button>
                 <p class="terms">By clicking the button, you are agreeing to our <span class="color-red">Terms and
@@ -60,9 +63,7 @@
         </p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
-    </script>
+    <script src="./main.js"></script>
 
 </body>
 
